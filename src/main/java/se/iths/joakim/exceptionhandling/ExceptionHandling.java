@@ -13,9 +13,9 @@ public class ExceptionHandling {
         return "error-404";
     }
 
-    @ExceptionHandler(Exception.class)
-    public String handleException(Exception ex, Model model) {
-        model.addAttribute("errorMessage", ex.getMessage());
-        return "error";
-    }
+//    @ExceptionHandler(Exception.class)
+//    public String handleException(Exception ex, Model model) {
+//        model.addAttribute("errorMessage", ex.getMessage());
+//        return "error";
+//    }
 }

@@ -10,7 +10,7 @@
     </parent>
     <groupId>se.iths.joakim</groupId>
     <artifactId>exception-handling</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>exception-handling</name>
     <description>exception-handling</description>
     <url/>
@@ -35,13 +35,15 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Joajak92/exception-handling</url>
+        </repository>
+    </distributionManagement>
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+
         </plugins>
     </build>
 
